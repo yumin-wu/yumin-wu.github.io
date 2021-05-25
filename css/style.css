@@ -180,12 +180,12 @@ nav a {
         font-size: 4rem;
     }
 }
-@media (max-width: 600px) {
-    /* nav {
+/* @media (max-width: 600px) {
+    nav {
         display: flex;
         flex-direction: column;
-    } */
+    }
     nav a {
         margin: 10px 0 0 0;
     }
-}
+} */
