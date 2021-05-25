@@ -17,6 +17,8 @@
                 --alexaBlue: #00CAFF;
                 --achieversPurple: #4e008e;
                 --ifdsBlue: #144b7b;
+                --textGrey: #5a6472;
+                --textWhite: #fafafa;
             }
 
             *,
@@ -42,7 +44,7 @@
 
             body {
                 overflow-x: hidden;
-                color: #fff;
+                color: var(--textWhite);
                 font-family: "stevie-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
                 font-size: 1.8rem;
                 line-height: 1.55em;
@@ -111,7 +113,7 @@
             h1,
             h2 {
                 margin: 0;
-                color: #fff;
+                color: var(--textWhite);
                 font-weight: 700;
                 text-rendering: optimizeLegibility;
             }
@@ -137,7 +139,7 @@
                 font-weight: 300;
                 line-height: 1.5em;
                 letter-spacing: 0.3px;
-                color: #5a6472;
+                color: var(--textGrey);
                 margin: 5px 0 20px;
                 text-indent: -1px;
             }
@@ -149,7 +151,7 @@
                 width: 100%;
                 max-width: 100px;
                 border: none;
-                background: #fff;
+                background: var(--textWhite);
             }
 
             p {
@@ -158,7 +160,8 @@
                 font-size: 2.4rem;
                 line-height: 1.55em;
                 font-weight: 300;
-                color: #5a6472;
+                color: var(--textGrey);
+                text-align: justify;
             }
 
             nav {
@@ -169,7 +172,7 @@
                 display: inline-block;
                 margin: 0 2vw 0 0;
                 letter-spacing: 0.5px;
-                color: #5a6472;
+                color: var(--textGrey);
                 font-weight: 400;
             }
 
